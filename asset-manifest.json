@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ca675591.css",
+    "main.js": "/static/js/main.427854e1.js",
+    "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.2877d54f94f30c5d563c.ttf",
+    "static/media/newProduct.jpg": "/static/media/newProduct.60149d0eab4f662790b0.jpg",
+    "static/media/Promotion.jpg": "/static/media/Promotion.bec36d0f0c750aa8a002.jpg",
+    "static/media/bestseller.jpg": "/static/media/bestseller.2f171940dfb254d31064.jpg",
+    "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.13e40630e5866f777de8.ttf",
+    "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.bdb9e23299f9d1320a8b.woff2",
+    "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.7be2266f1be21c44ecd4.woff2",
+    "static/media/paiement.png": "/static/media/paiement.8541b89f4d86d5e6f84b.png",
+    "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.146404900f7550a9719d.ttf",
+    "static/media/loulou.png": "/static/media/loulou.519bf415fe28b0922617.png",
+    "static/media/coeur.png": "/static/media/coeur.44f5755dfdd99d540b58.png",
+    "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.8bedd7cfa43a6c358cdd.woff2",
+    "static/media/panier.png": "/static/media/panier.7e80570fee1c0459d2ba.png",
+    "static/media/fa-v4compatibility.ttf": "/static/media/fa-v4compatibility.6c0a7b774ffa1cf0a059.ttf",
+    "static/media/Instagram-title.svg": "/static/media/Instagram-title.1497cd017675d965778dc8ce12394e05.svg",
+    "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.497d535001197a9c5b38.woff2",
+    "static/media/Instagram.svg": "/static/media/Instagram.22bda4c250235f5d99c5c75e2537147e.svg",
+    "static/media/tiktok.svg": "/static/media/tiktok.7cc3e9a3aa27385aafcc3c9c71d8d025.svg",
+    "static/media/heart.svg": "/static/media/heart.c31d61db7c2d096bd3219a00053eca01.svg",
+    "static/media/left-arrow.svg": "/static/media/left-arrow.da21225bcf530088451874c9e21c215a.svg",
+    "static/media/right-arrow.svg": "/static/media/right-arrow.d19ce8f87764b5901ed2ca6f0ff22d03.svg",
+    "index.html": "/index.html",
+    "main.ca675591.css.map": "/static/css/main.ca675591.css.map",
+    "main.427854e1.js.map": "/static/js/main.427854e1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca675591.css",
+    "static/js/main.427854e1.js"
+  ]
+}
