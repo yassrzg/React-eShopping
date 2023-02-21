@@ -1,0 +1,386 @@
+/* LOADER */
+
+.loader-connexion {
+    width: 50px;
+    color: blue;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+}
+
+/* PSEUDO WELCOME */
+
+
+.button {
+    margin-left: 30px;
+    height: auto;
+    background: transparent;
+    padding: 0;
+    border: none;
+  }
+  
+  /* button styling */
+  .button {
+    --border-right: 6px;
+    --text-stroke-color: rgba(255,255,255,0.6);
+    --animation-color: #37FF8B;
+    --fs-size: 60px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-size: var(--fs-size);
+    font-family: "Arial";
+    position: relative;
+    
+    color: black;
+    -webkit-text-stroke: 1px var(--text-stroke-color);
+  }
+  /* this is the text, when you hover on button */
+  .hover-text {
+    position: absolute;
+    box-sizing: border-box;
+    content: attr(data-text);
+    color: var(--animation-color);
+    width: 0%;
+    inset: 0;
+    border-right: var(--border-right) solid var(--animation-color);
+    overflow: hidden;
+    transition: 0.5s;
+    -webkit-text-stroke: 1px var(--animation-color);
+  }
+  /* hover */
+  .button:hover .hover-text {
+    width: 100%;
+    filter: drop-shadow(0 0 23px var(--animation-color))
+  }
+  
+
+
+#welcome-pseudo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+
+}
+
+
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* BTN SAVE PICTURE */
+
+.buttonSavePicture {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+  background: none;
+  color: #0f1923;
+  cursor: pointer;
+  position: relative;
+  padding: 8px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  transition: all .15s ease;
+  margin-left: 70px;
+  
+}
+
+
+
+.buttonSavePicture::before {
+  top: 0;
+  border-bottom-width: 0;
+}
+
+.buttonSavePicture::after {
+  bottom: 0;
+  border-top-width: 0;
+}
+
+.buttonSavePicture:active,
+.buttonSavePicture:focus {
+  outline: none;
+}
+
+.buttonSavePicture:active::before,
+.buttonSavePicture:active::after {
+  right: 3px;
+  left: 3px;
+}
+
+.buttonSavePicture:active::before {
+  top: 3px;
+}
+
+.buttonSavePicture:active::after {
+  bottom: 3px;
+}
+
+.button_lg {
+  position: relative;
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #0f1923;
+  overflow: hidden;
+  box-shadow: inset 0px 0px 0px 1px transparent;
+  border-radius: 10px;
+}
+
+.button_lg::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2px;
+  height: 2px;
+  background-color: #0f1923;
+  
+}
+
+.button_lg::after {
+  content: '';
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 4px;
+  height: 4px;
+  background-color: #0f1923;
+  transition: all .2s ease;
+}
+
+.button_sl {
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: -1px;
+  left: -8px;
+  width: 0;
+  background-color: #33d559;
+  transform: skew(-15deg);
+  transition: all .2s ease;
+}
+
+.button_text {
+  position: relative;
+}
+
+.buttonSavePicture:hover {
+  color: #0f1923;
+}
+
+.buttonSavePicture:hover .button_sl {
+  width: calc(100% + 15px);
+}
+
+.buttonSavePicture:hover .button_lgDeletePicture::after {
+  background-color: #fff;
+}
+
+
+
+/* BUTTON DELETE */
+
+.noselect {
+  width: 150px;
+  height: 36px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  background: red;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+  background: #e62222;
+  margin-left: 10px;
+}
+
+.noselect, .noselect span  {
+  transition: 200ms;
+}
+
+.noselect .text-delete {
+  transform: translateX(35px);
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.noselect .icon-delete {
+  position: absolute;
+ border-left: 1px solid #c41b1b;
+ transform: translateX(110px);
+ height: 36px;
+ width: 40px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.noselect svg {
+  width: 15px;
+ fill: #eee;
+}
+
+.noselect:hover {
+  background: #ff3636;
+}
+
+.noselect:hover .text-delete {
+  color: transparent;
+}
+.noselect:hover .icon-delete {
+  width: 150px;
+  border-left: none;
+  transform: translateX(0);
+ }
+
+ .noselect:focus {
+  outline: none;
+ }
+ 
+ .noselect:active .icon svg {
+  transform: scale(0.8);
+ }
+
+
+
+ /* MON PROFIL */ 
+
+ #Profil {
+  border: 1px solid rgb(210, 193, 193);
+  margin: 130px auto;
+  width: 900px;
+  border-radius: 15px;
+  background-color: #ede1d7;
+ }
+
+ #Profil h2 {
+  text-align: center;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid gray;
+ }
+
+ #picture-profil {
+  display: flex;
+  margin-left: 35px;
+  align-items: center;
+ }
+
+ #profil-picture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid gray;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: black;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+
+
+ .modif-profil-picture {
+  display: flex;
+  align-items: center;
+ }
+
+ .input-profilPicture {
+  display: none;
+ }
+
+ .file-upload {
+  cursor: pointer;
+  color: #00b1ca;
+  font-weight: bold;
+}
+.file-upload:hover {
+  color: #25a5c4;
+}
+
+#profil-picture-set {
+  display: flex;
+  align-items: center;
+}
+
+
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  text-align: left;
+  padding-top: 60px;
+}
+
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  text-align: left;
+  width: 150px;
+}
+
+td {
+  border-top: 1px solid #b4adad;
+}
+
+.user-td {
+  border: none;
+}
+
+th:first-child, td:first-child {
+  border-left: none;
+}
+
+th:last-child, td:last-child {
+  border-right: none;
+}
+
+#Information-Profil {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+
+.enregistrer-modif {
+  margin-top: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.enregistrer-modif button {
+  padding: 12px 15px;
+  background: #33d559;
+  border: 1px solid #33d559;
+  border-radius: 10px;
+}
+
+
+

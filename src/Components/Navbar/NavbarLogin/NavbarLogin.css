@@ -1,0 +1,99 @@
+.nav-top2 {
+    
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background: black;
+  border-radius: 3px;
+  box-shadow: 0 10px 20px rgba(19, 19, 19, 0.2);
+}
+
+.nav-top2 a {
+  font-size: 30px;
+  text-decoration: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #f1f1f1;
+  padding: 20px 20px;
+  text-transform: uppercase;
+  padding-left: 50px;
+  
+}
+
+.nav-top2 a:hover {
+color: rgb(250, 100, 0);
+}
+
+
+
+
+
+.profile-dropdown {
+  position: relative;
+  margin-left: 230px;
+  padding-top: 5px;
+}
+
+.dropdown-toggle {
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+
+
+.dropdown-toggle:hover {
+  color: #b5b5b5;
+}
+
+.profile-dropdown div {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: black;
+  min-width: 270px;
+  z-index: 1;
+  padding: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  display: none;
+  border-radius: 15px;
+}
+
+.profile-dropdown:hover div {
+  display: block;
+}
+
+.profile-dropdown div a {
+  display: block;
+  margin: 0.5rem 0;
+  color: #f5f1f1;
+  text-decoration: none;
+  font-size: 23px;
+}
+
+.profile-dropdown div a:hover {
+  color: white;
+}
+
+.profile-dropdown div button {
+  display: block;
+  margin: 2px 0;
+  background-color: transparent;
+  color: #f5f1f1;
+  font-size: 23px;
+  border: none;
+  padding: 1.3rem 1rem;
+  padding-bottom: 0.5rem;
+  cursor: pointer;
+  padding-right: 15px;
+  border-top: 1px solid white;
+  text-align: center;
+  width: 100%;
+  
+  text-transform: uppercase;
+}
+
+.profile-dropdown div button:hover {
+  color: rgb(201, 29, 29);
+}

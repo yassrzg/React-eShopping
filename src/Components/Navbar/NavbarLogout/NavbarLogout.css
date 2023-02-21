@@ -1,0 +1,112 @@
+.nav-top {
+    
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background: black;
+    border-radius: 3px;
+    box-shadow: 0 10px 20px rgba(19, 19, 19, 0.2);
+}
+
+.nav-top a {
+    font-size: 30px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #f1f1f1;
+    padding: 20px 20px;
+    text-transform: uppercase;
+    padding-right: 50px;
+    
+}
+
+.nav-top-element {
+  padding-right: 50px;
+}
+
+.nav-top a:hover {
+  color: rgb(250, 100, 0);
+}
+.logo {
+    display: flex;
+    margin-right: 100px;
+    padding-left: 200px;
+}
+
+#logo { 
+    width: 120px;
+    height: 120px;
+    
+    justify-content: flex-start;
+    
+   
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .dropdown-toggle {
+    background-color: transparent;
+    border: none;
+    color: #333;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 50px;
+    
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: black;
+    border: 1px solid black;
+    padding: 10px;
+    list-style: none;
+    text-align: left;
+    min-width: 250px;
+    z-index: 1;
+    border-radius: 15px;
+  }
+  
+  .dropdown-menu li {
+    margin: 5px 0;
+  }
+  
+  .dropdown-menu a {
+    display: block;
+    padding: 10px;
+    color: #f5f1f1;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .dropdown-menu a:hover {
+    display: block;
+    padding-left: 15px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .dropdown-toggle::after {
+    content: "";
+    display: inline-block;
+    margin-left: 5px;
+    vertical-align: middle;
+    width: 0;
+    height: 0;
+    border-top: 6px solid #333;
+    border-right: 6px solid transparent;
+    border-left: 6px solid transparent;
+  }
+  
+  .dropdown-menu.show {
+    display: block;
+  }
+
+  
